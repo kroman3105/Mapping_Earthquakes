@@ -19,8 +19,6 @@ L.polyline(line, {
     weight: 4,
 }).addTo(map);
 
-// Get data from cities.js
-let cityData = cities;
 
 // We create the tile layer that will be teh background of our map
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
